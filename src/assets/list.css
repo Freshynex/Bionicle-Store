@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, #aeb3b8, #929a68);
+}
+
+li {
+  padding-inline: 12px;
+  position: relative;
+}
+
+.shopSubMenu {
+  display: none;
+  background-color: darkgreen;
+  list-style-type: none;
+  position: absolute;
+  transition: transform 0.2s ease-in-out;
+  transform: translateY(24px);
+}
+
+li a:has(.shopSubMenu):hover .shopSubMenu {
+  display: block;
+  transform: translateY(0px);
+}
+
+@font-face {
+  font-family: "Rahkshi_font";
+  src: local("Rahkshi_font"),
+    url(../../public/Rahkshi\ Font.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+}
+
+.welcomeIntroText {
+  font-family: fantasy;
+  text-align: center;
+  padding: 12px;
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.welcomeQuote {
+  width: min(450px, 50%);
+  font-family: fantasy;
+  padding-inline: 32px;
+}

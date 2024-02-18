@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "category": "bionicles",
+    "title": "Toa Kongu",
+    "description": "Ez egy bionicle ami zöld.",
+    "price": 10000,
+    "image": "../../public/kongu.jpg"
+  },
+  {
+    "id": 2,
+    "category": "bionicles",
+    "title": "Toa Jaller",
+    "description": "Ez egy bionicle ami piros.",
+    "price": 8500,
+    "image": "../../public/jaller.jpg"
+  },
+  {
+    "id": 3,
+    "category": "bionicles",
+    "title": "Toa Hewkii",
+    "description": "Ez egy bionicle ami niga.",
+    "price": 7000,
+    "image": "../../public/hewkii.jpg"
+  },
+  {
+    "id": 4,
+    "category": "bionicles",
+    "title": "Toa Hahli",
+    "description": "Ez egy bionicle ami niga.",
+    "price": 7000,
+    "image": "../../public/hahli.jpeg"
+  },
+  {
+    "id": 5,
+    "category": "bionicles",
+    "title": "Toa Matoro",
+    "description": "Ez egy bionicle ami fehér.",
+    "price": 7000,
+    "image": "../../public/matoro.jpg"
+  },
+  {
+    "id": 6,
+    "category": "bionicles",
+    "title": "Toa Nuparu",
+    "description": "Ez egy bionicle ami vmilyen.",
+    "price": 7000,
+    "image": "../../public/nuparu.jpg"
+  },
+  {
+    "id": 7,
+    "category": "extras",
+    "title": "anyukad dildoja",
+    "description": "Ez egy ",
+    "price": 0,
+    "image": "../../public/anyudildo.jpeg"
+  }
+]
